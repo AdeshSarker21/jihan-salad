@@ -1,0 +1,304 @@
+
+@media only screen and (max-width: 1991px) and (min-width: 1400px) {
+    .hero_img img {
+        width: 698px;
+        height: 720px;
+        margin-top: -55%;
+        margin-left: 12%;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .hero_img img {
+        width: 471px;
+        height: 845px;
+        margin-top: -73%;
+    }
+
+    .logo a h1 {
+        font-size: 27px;
+    }
+
+    .menu ul li a {
+        padding: 33px 13px 13px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .menu_area {
+        display: none;
+    }
+
+    .responsive_header {
+        display: block;
+    }
+
+    .hero_img img {
+        width: 100%;
+        height: auto;
+        margin-top: 0%;
+        margin-top: 50px;
+    }
+
+    .main_hero_area {
+        padding: 100px 0px;
+    }
+
+    .about_us_img {
+        position: unset;
+        text-align: center;
+    }
+
+    .about_me_details_up p {
+        width: 100%;
+    }
+
+    .about_me_details_down {
+        padding-bottom: 60px;
+    }
+
+    .uni_img img {
+        width: 150px;
+    }
+
+    .uni_img {
+        position: absolute;
+        bottom: -6%;
+    }
+
+    .award_img {
+        margin-top: 60px;
+    }
+
+    .project_item {
+        width: 44%;
+    }
+
+    .journal_details_text {
+        flex-basis: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .journal_img {
+        flex-basis: 100%;
+    }
+
+    .main_journal_area {
+        flex-direction: column;
+    }
+
+    .footer_effect {
+        display: none;
+    }
+
+    .main_contact_form {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:767px) {
+    .uni_img {
+        bottom: -5%;
+    }
+
+    .project_item {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .form_item {
+        flex-direction: column;
+        margin-bottom: 0px;
+        align-items: unset;
+    }
+
+    .form_group input {
+        margin-bottom: 25px;
+    }
+
+    .form_group {
+        flex-basis: 100%;
+    }
+
+    .main_contact_form {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .contact_form_heading {
+        padding-bottom: 30px;
+    }
+
+    .main_footer_area {
+        width: 100%;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .custom_btn button a {
+        padding: 25px 34px;
+    }
+}
+
+@media all and (max-width:577px) {
+    .custom_btn button a {
+        font-size: 18px;
+        padding: 14px 36px;
+    }
+
+    .flag a img {
+        width: 80%;
+    }
+
+    .about_us_area {
+        padding: 75px 0px 140px;
+    }
+
+    .unfpa_logo {
+        top: 1%;
+    }
+
+    .journal_details {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:480px) {
+    .container {
+        width: 95%;
+    }
+
+    .uni_img {
+        bottom: -4%;
+    }
+
+    .hero_text h1 {
+        font-size: 58px;
+    }
+
+    .hero_text h6 {
+        font-size: 20px;
+        padding: 3px 0px 16px;
+    }
+
+    .responsive_header a img {
+        width: 220px;
+    }
+
+    .header .menu-icon {
+        padding: 40px 20px;
+    }
+
+    .custom_btn button {
+        margin-right: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .custom_btn button a {
+        width: 100%;
+    }
+
+    .about_us_img img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .copyright p {
+        font-size: 16px;
+    }
+
+    .copyright {
+        padding: 70px 0px 24px;
+    }
+
+    .card_box {
+        height: 100%;
+    }
+}
+
+@media all and (max-width:400px) {
+    .uni_img {
+        bottom: -3%;
+    }
+
+    .copyright p {
+        font-size: 15px;
+    }
+
+    .hero_text h1 {
+        font-size: 53px;
+    }
+
+    .event ul li {
+        font-size: 17px;
+    }
+
+    .matenal_health p {
+        font-size: 16px;
+    }
+
+    .card_box {
+        height: 100%;
+    }
+}
+
+@media all and (max-width:375px) {
+    .responsive_header a img {
+        width: 200px;
+    }
+
+    .header .menu-icon {
+        padding: 40px 20px;
+    }
+
+    .hero_text h1 {
+        font-size: 49px;
+    }
+
+    .hero_text h6 {
+        font-size: 17px;
+        padding: 3px 0px 16px;
+    }
+
+    .hero_text p {
+        font-size: 16px;
+    }
+
+    .hero_img p {
+        margin-top: 0;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+        color: #fff;
+    }
+
+    .uni_img {
+        bottom: -2%;
+    }
+
+    .event ul li {
+        font-size: 15px;
+    }
+
+    .matenal_health h4 {
+        font-size: 15px;
+    }
+
+    .matenal_health p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .card_box {
+        height: 130px;
+    }
+
+    .form_heading h1 {
+        font-size: 45px;
+    }
+}
+
+@media all and (max-width:320px) {}
